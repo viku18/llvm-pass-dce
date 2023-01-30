@@ -12,4 +12,4 @@ Build:
 Run:
 1) To run the pass on any llvm-ir files go to the directory
 2) clang -O0 -emit-llvm -S prgm_name.c -o prgm_name.ll
-3) opt -load build/libDeadCodeElimination.so -dead-code-elimination prgm_name.ll
+3) opt -load path_to_dynamic_library.so -pass_name prgm_name.ll
