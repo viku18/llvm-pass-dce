@@ -1,4 +1,4 @@
-# llvm-pass-dce
+# llvm-pass
 Instruction to execute the pass :
 
 Build:
